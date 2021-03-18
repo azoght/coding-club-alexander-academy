@@ -23,8 +23,11 @@ Feel free to use whatever message you like in place of Hello World!
 Here are some basic data types that you’ll see in pretty much all Python programs.
 
 **Integer-** a non-decimal number (ex. -3, 100, 2456708)
+
 **Float-** a number expressed as a decimal (ex. 5.0, -18.7, 3.14159)
+
 **String-** a sequence of characters wrapped in quotes (ex. “A”, “Ready 2 code?”)
+
 **Boolean-** a conditional data type, which can either be expressed as True or False
 
 ## Operators
