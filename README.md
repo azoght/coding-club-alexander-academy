@@ -2,14 +2,14 @@
 
 My official curriculum for Alexander Academy's Coding Club
 
-## [Week 1: The Very Basics](Week 1_ The Very Basics.md)
+## [Week 1: The Very Basics](Week1.md)
 
-- [Your First Program: Hello World]
-- [Values and Data Types]
-- [Operators]
-- [Functions]
-- [The Type() Function]
-- [Type Conversion Functions]
+- [Your First Program: Hello World](Week1.md#your-first-program-hello-world)
+- [Values and Data Types](Week1.md#values-and-data-types)
+- [Operators](Week1.md#operators)
+- [Functions](Week1.md#functions)
+- [The Type() Function](Week1.md#the-type-function)
+- [Type Conversion Functions](Week1.md#type-conversion-functions)
 
 ## [Week 2: More Basics]
 - [Variables]
