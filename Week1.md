@@ -1,4 +1,4 @@
-﻿# Week 1: The Very Basics
+﻿# Week 1
 
 ## Your First Program: Hello World
 All it takes is one line of code
