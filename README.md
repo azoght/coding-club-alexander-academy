@@ -11,12 +11,13 @@ My official curriculum for Alexander Academy's Coding Club
 - [The Type() Function](Week1.md#the-type-function)
 - [Type Conversion Functions](Week1.md#type-conversion-functions)
 
-## [Week 2]
-- [Variables]
-- [Statements and Expressions]
-- [Updating Variables]
-- [Interlude: Hard-Coding]
-- [Input]
+## [Week 2](Week2.md)
+- [Variables](Week2.md#variables)
+- [Statements and Expressions](Week2.md#statements-and-expressions)
+- [Updating Variables](Week2.md#updating-variables)
+- [Interlude: Hard-Coding](Week2.md#interlude-hard-coding)
+- [Input](Week2.md#input)
+- [Comments!](Week2.md#comments)
 
 ## [Week 3]
 - [The Turtle Module]
