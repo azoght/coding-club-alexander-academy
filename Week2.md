@@ -127,10 +127,15 @@ Output: How many metres? 1.6
 		5' 2''
 ```
 **Let's break it down!**
+
 *Line 1:* We are asking the user to input any number of metres, which is then converted to a float.
+
 *Line 2:* We convert the user's input of metres to inches. Since 1 metre = 39.37 inches, this is the number we'll multiply the user's input by.
+
 *Line 3:* We calculate how many feet can be made from these inches. Since 1 foot = 12 inches, then we divide the inches by that number, truncate it to a whole number, and cast it to an integer.
+
 *Line 4:* We then calculate the remaining inches using the modulus operator. But since the final calculation will just be an approximation, we'll cast that number to an integer as well.
+
 *Line 5:* We print the results from Lines 3 and 4 as a representation of feet and inches, using the single apostrophe (') for feet and the double apostrophe ('') for inches.
 
 **Your Turn!** Try making a program that takes a user's input and outputs a result based on that input. Make sure to use what we learned so far, not just a print statement and variable declaration.
