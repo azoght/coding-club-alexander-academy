@@ -15,5 +15,11 @@ My official curriculum for Alexander Academy's Coding Club
 - [Variables]
 - [Statements and Expressions]
 - [Updating Variables]
-- [Hard-Coding]
+- [Interlude: Hard-Coding]
 - [Input]
+
+## [Week 3: Turtles]
+
+## [Week 4: The Obstacles]
+
+## [Week 5: Working with Collections]
