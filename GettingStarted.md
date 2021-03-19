@@ -13,7 +13,7 @@ If you're interested in creating a Github account, let me know and I'll get you 
 ## Repl
 To share snippets of what you learned so far from this course, I highly recommend Repl.it for all members. Starting an account is easy, and you can access thousands of packages in addition to built-in modules. You must sign up [here](https://replit.com/signup). (**Bonus:** If you already have a Github account, you can use that to sign up instead of your Google account.) 
 
-To keep things simple, your username will be your first initial (of your English name) followed by your last name in all lowercase. (If your username is already taken, add a number next to it.) For example, if your name is Eason Feng, your username will be *efeng*. 
+To keep things simple, your username will be your first initial (of your English name) followed by your last name in all lowercase. (If your username is already taken, add a number next to it.) For example, if your name is Eason Feng, your username will be *efeng*. However, if your name is Molly Li, and *mli* is already taken, try *mli1* or *mli2*.
 
 If you're having trouble using Repl, please let me know and I can help.
 
