@@ -12,7 +12,7 @@ t.forward(100)
 ```
 When you run this program with the play button, the result looks like this.
 
-![](pythonsandbox-canvas.png)
+![](PythonTurtleCanvases/pythonsandbox-canvas.png)
 
 In the above code, *turtle* is a module, or package (more on that later) and *Turtle()* is a class. Object-oriented programming is mainly focused on classes, which contain attributes (variables) and methods (functions). The variable *t*, meanwhile, is an instance of a class.
 
@@ -27,7 +27,8 @@ t = turtle.Turtle()
 t.color("lime green")
 t.forward(10)
 ```
-![](pythonsandbox-canvas(1).png)
+![](PythonTurtleCanvases/pythonsandbox-canvas1.png)
+
 **.pencolor()-** sets the colour of just the turtle's pen
 ```python
 import turtle
@@ -35,7 +36,8 @@ t = turtle.Turtle()
 t.pencolor("lime green")
 t.forward(10)
 ```
-![](pythonsandbox-canvas(2).png)
+![](PythonTurtleCanvases/pythonsandbox-canvas2.png)
+
 **.fillcolor()-** sets the colour of the filled area of what is drawn
 ```python
 import turtle
@@ -43,7 +45,8 @@ t = turtle.Turtle()
 t.fillcolor("lime green")
 t.forward(10)
 ```
-![](pythonsandbox-canvas(3).png)
+![](PythonTurtleCanvases/pythonsandbox-canvas3.png)
+
 *For these above functions, the argument can either be the name of the colour, its hex code or a tuple of its RGB value, but we'll just work with [official colour names](https://trinket.io/docs/colors) to keep things simple.*
 
 **.setx() / .sety()-** sets the x-coordinate/y-coordinate of the canvas that the turtle is on
@@ -53,7 +56,8 @@ t = turtle.Turtle()
 t.setx(100)
 t.sety(100)
 ```
-![](pythonsandbox-canvas(9).png)
+![](PythonTurtleCanvases/pythonsandbox-canvas9.png)
+
 **.shape()-** sets the shape of the turtle (not the shape it's drawing)
 
 ![Screenshot of Shapes from GeeksforGeeks](Screen Shot 2021-03-19 at 6.08.38 PM)
@@ -67,7 +71,8 @@ t.forward(50)
 t.down() # pen is on
 t.forward(50)
 ```
-![](pythonsandbox-canvas(4).png)
+![](PythonTurtleCanvases/pythonsandbox-canvas4.png)
+
 **.width() [also known as .pensize()] -** sets the line thickness of the pen
 ```python
 import turtle
@@ -83,7 +88,8 @@ t.forward(30)
 t.width(75)
 t.forward(30)
 ```
-![](pythonsandbox-canvas(10).png)
+![](PythonTurtleCanvases/pythonsandbox-canvas10.png)
+
 **.seth() [also known as .setheading()]-** sets the angle (in degrees) that the turtle is headed in (counterclockwise)
 ```python
 import turtle
@@ -92,7 +98,8 @@ t.forward(50)
 t.seth(45)
 t.forward(50)
 ```
-![](pythonsandbox-canvas(11).png)
+![](PythonTurtleCanvases/pythonsandbox-canvas11.png)
+
 Then, there are other methods, which control the movement of the turtle; for instance, *forward()*, which allows the turtle to move up a certain amount of steps.
 
 **.backward()-** allows the turtle to move down a certain amount of steps
@@ -101,7 +108,8 @@ import turtle
 t = turtle.Turtle()
 t.backward(100)
 ```
-![](pythonsandbox-canvas(5).png)
+![](PythonTurtleCanvases/pythonsandbox-canvas5.png)
+
 **.right() / .left()-** turns the turtle clockwise/counter-clockwise a certain number of degrees (although, I think .seth() is a good alternative)
 ```python
 import turtle
@@ -112,7 +120,8 @@ t.forward(40)
 t.left(90) # turn 90 counter-clockwise
 t.forward(40)
 ```
-![](pythonsandbox-canvas(6).png)
+![](PythonTurtleCanvases/pythonsandbox-canvas6.png)
+
 **.goto() [also known as .setpos() or .setposition()]-** moves the turtle to a certain coordinate of its canvas (a better alternative to .setx() and .sety())
 ```python
 import turtle
@@ -122,21 +131,24 @@ t.goto(100,50)
 t.down()
 t.forward(60)
 ```
-![](pythonsandbox-canvas(12).png)
+![](PythonTurtleCanvases/pythonsandbox-canvas12.png)
+
 **.dot()-** draws a dot on canvas of a given size and colour
 ```python
 import turtle
 t = turtle.Turtle()
 t.dot(30)
 ```
-![](pythonsandbox-canvas(7).png)
+![](PythonTurtleCanvases/pythonsandbox-canvas7.png)
+
 **.circle()-** draws a circle on canvas, given its radius, making life so much easier
 ```python
 import turtle
 t = turtle.Turtle()
 t.circle(30)
 ```
-![](pythonsandbox-canvas(8).png)
+![](PythonTurtleCanvases/pythonsandbox-canvas8.png)
+
 **.stamp()-** stamps a copy of the turtle's shape to canvas
 ```python
 import turtle
@@ -163,7 +175,8 @@ t.shape("square")
 t.goto(-200, 20)
 t.stamp()
 ```
-![](pythonsandbox-canvas(13).png)
+![](PythonTurtleCanvases/pythonsandbox-canvas13.png)
+
 If you're interested in the full documentation for the turtle module, click [here](https://docs.python.org/3/library/turtle.html).
 
 **Your Turn!** Using as many of the methods mentioned above as you can, try creating your own cool shape with Python's turtle module. Be creative and I can't wait to see your canvases next week!
@@ -224,7 +237,7 @@ t2.circle(60)
 t1.end_fill()
 t2.end_fill()
 ```
-![](Screen Shot 2021-03-20 at 2.12.41 PM)
+![](PythonTurtleCanvases/Screen Shot 2021-03-20 at 2.12.41 PM)
 
 **And one more thing!**
 
@@ -244,7 +257,8 @@ for i in range(100): # it's a spiral!
 
 t.forward(400)
 ```
-![](pythonsandbox-canvas(14).png)
+![](PythonTurtleCanvases/pythonsandbox-canvas14.png)
+
 ## Packages
 As mentioned earlier, the *turtle* module is a package. Packages contain specialized classes and modules, and there are thousands available for all Python developers through the Internet. 
 
