@@ -60,7 +60,7 @@ t.sety(100)
 
 **.shape()-** sets the shape of the turtle (not the shape it's drawing)
 
-![Screenshot of Shapes from GeeksforGeeks](Screen Shot 2021-03-19 at 6.08.38 PM)
+![Screenshot of Shapes from GeeksforGeeks](PythonTurtleCanvases/ScreenShotTurtleShapes.png)
 
 **.up() / .down() [also known as .penup() / .pendown()]-** controls whether the turtle's pen is up (off) or down (on)
 ```python
@@ -237,7 +237,7 @@ t2.circle(60)
 t1.end_fill()
 t2.end_fill()
 ```
-![](PythonTurtleCanvases/Screen Shot 2021-03-20 at 2.12.41 PM)
+![](PythonTurtleCanvases/ScreenShotTurtles.png)
 
 **And one more thing!**
 
