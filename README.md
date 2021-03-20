@@ -22,7 +22,6 @@ My official curriculum for Alexander Academy's Coding Club
 ## [Week 3]
 - [The Turtle Module]
 - [Packages]
-- [Debugging]
 - [Errors]
 - [Loops]
 - [Incremental Programming]
