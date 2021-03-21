@@ -19,12 +19,12 @@ My official curriculum for Alexander Academy's Coding Club
 - [Input](Week2.md#input)
 - [Comments!](Week2.md#comments)
 
-## [Week 3]
-- [The Turtle Module]
-- [Packages]
-- [Errors]
-- [Loops]
-- [Incremental Programming]
+## [Week 3](Week3.md)
+- [The Turtle Module](Week3.md#the-turtle-module)
+- [Packages](Week3.md#packages)
+- [Errors](Week3.md#errors)
+- [Loops](Week3.md#loops)
+- [Incremental Programming](Week3.md#incremental-programming)
 
 ## [Week 4]
 - [Strings, Lists, and Tuples]
