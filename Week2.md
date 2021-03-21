@@ -126,13 +126,12 @@ Let's say you wanted to create a simple program that asks for the user's name an
 
 ```python
 name = input("What's your name? ")
-print("Hello,", name + "!")
+print("Hello, " + name + "!")
 ```
 ```
 What's your name? Angelina
 Hello, Angelina!
 ```
-**Note:** The message printed uses two forms of string concatenation. More on that in a future lesson.
 
 Here's a more complicated example which takes a number in metres and converts it into its approximate feet and inches.
 ```python
