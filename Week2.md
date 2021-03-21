@@ -10,7 +10,9 @@ Python, unlike other high-level languages uses **dynamic typing**, so the data t
 ```python
 greeting = "Hello"
 print(greeting + " neighbour!")
-Output: Hello neighbour!
+```
+```
+Hello neighbour!
 ```
 
 In the above example, the name of the variable is *greeting* and the value is *"Hello"*. Since Python uses dynamic typing, the compiler will automatically recognize this variable as a string.
@@ -21,7 +23,9 @@ You can give variables similar names, as long as they are not the **exact same**
 YVR = "Vancouver International Airport"
 yvr = 604
 print("Vancouver's airport is the " + YVR + " and their area code is " + str(yvr))
-Output: Vancouver's airport is the Vancouver International Airport and their area code is 604
+```
+```
+Vancouver's airport is the Vancouver International Airport and their area code is 604
 ```
 **Ground Rules For Variable Names:**
 
@@ -45,7 +49,9 @@ str(week)
 Returns the length of a sequence, such as a list or a string.
 ```python
 print(len("Code"))
-Output: 4
+```
+```
+4
 ```
 
 ## Updating Variables
@@ -56,7 +62,9 @@ favouriteNumber = 3
 print("My favourite number was " + str(favouriteNumber))
 favouriteNumber = 2
 print("My favourite number is now " + str(favouriteNumber))
-Output: My favourite number is 3
+```
+```
+My favourite number is 3
 My favourite number is now 2
 ```
 Another way to update variables is through incrementing and decrementing.
@@ -66,14 +74,18 @@ Another way to update variables is through incrementing and decrementing.
 age = 4
 age += 2
 print(age)
-Output: 6
+```
+```
+6
 ```
 **Decrement-** subtracts a certain value from a variable (-=)
 ```python
 balance = 180
 balance -= 50
 print(dollars)
-Output: 130
+```
+```
+130
 ```
 ## Interlude: Hard-Coding
 
@@ -88,7 +100,9 @@ y = 6
 
 product = 12
 print(product)
-Output: 12
+```
+```
+12
 ```
 This is **not** hard-coding! (what you *should* be doing)
 
@@ -98,7 +112,9 @@ y = 6
 
 product = x * y
 print(product)
-Output: 12
+```
+```
+12
 ```
 
 ## Input
@@ -111,8 +127,10 @@ Let's say you wanted to create a simple program that asks for the user's name an
 ```python
 name = input("What's your name? ")
 print("Hello,", name + "!")
-Output: What's your name? Angelina
-		Hello, Angelina!
+```
+```
+What's your name? Angelina
+Hello, Angelina!
 ```
 **Note:** The message printed uses two forms of string concatenation. More on that in a future lesson.
 
@@ -123,8 +141,10 @@ total_inches = metres * 39.37
 feet = int(total_inches // 12)
 inches = int(total_inches % 12)
 print(str(feet) + "' " + str(inches) + "''")
-Output: How many metres? 1.6
-		5' 2''
+```
+```
+1.6
+5' 2''
 ```
 **Let's break it down!**
 
