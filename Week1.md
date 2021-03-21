@@ -39,61 +39,89 @@ Here are the basic operators used in Python.
 **Addition-** used to add or combine two values (+)
 ```python
 print(11 + 98)
-Output: 109
-
+```
+```
+109
+```
+```python
 print("Welcome to " + "Coding Club!")
-Output: Welcome to Coding Club
+```
+```
+Welcome to Coding Club
 ```
 **Subtraction-** used to subtract two values (-)
 ```python
 print(89 - 45)
-Output: 44
+```
+```
+44
 ```
 **Multiplication-** used to multiply two values (*)
 ```python
 print(5 * 3)
-Output: 15
-
+```
+```
+15
+```
+```python
 print(Happy * 7)
-Output: HappyHappyHappyHappyHappyHappyHappy
+```
+```
+HappyHappyHappyHappyHappyHappyHappy
 ```
 **Division-** used to divide two values (\)
 ```python
 print(30 / 6)
-Output: 5
-
+```
+```
+5
+```
+```python
 print(8 / 6)
-Output: 1.33333333333333333333333
+```
+```
+1.33333333333333333333333
 ```
 **Truncated Division-** rounds the quotient of two values (\\)
 ```python
 print(11 // 5)
-Output: 2
+2
 ```
 **Modulus-** remainder of division between two values (%)
 ```python
 print(60 % 3)
-Output: 0
-
+```
+```
+0
+```
+```python
 print(19 % 7)
-Output: 5
+```
+```
+5
 ```
 **Exponent-** raises the preceding operand to the power of the succeeding operand
 ```python
 print(2 ** 3)
-Output: 8
+```
+```
+8
 ```
 **Note**: When dealing with operators, Python uses the Order of Operations or BEDMAS (Brackets, Exponents, Division & Multiplication, Addition & Subtraction)
 
 So...
 ```python
 print(10 - 8 // 2)
-Output: 6
+```
+```
+6
 ```
 is not the same as...
 ```python
 print((10 - 8) // 2)
-Output: 1
+```
+```
+1
 ```
 
 ## Functions
@@ -105,7 +133,9 @@ def areaofRectangle(length, width):
 	return length * width
 
 print(areaofRectangle(4,6)
-Output: 24
+```
+```
+24
 ```
 In the above function, the arguments are length and width, while the return value is equal to the length multiplied by the width, since the area of a rectangle is equal to its length times its width.
 
@@ -119,10 +149,15 @@ Regardless, a function *should* have output.
 The function type() gives us the data type of the argument
 ```python
 print(type("Welcome to Coding Club!"))
-Output: <class 'str'>
-
+```
+```
+<class 'str'>
+```
+```python
 print(type(16))
-Output: <class 'int'>
+```
+```
+<class 'int'>
 ```
 It should be used if you are unsure what data type a value is.
 
@@ -132,41 +167,67 @@ There are other built-in functions that can be used to convert a value from one 
 **Int()-** used to convert a value to an integer
 ```python
 print(int("8732"))
-Output: 8732
-
+```
+```
+8732
+```
+```python
 print(type(int("8732"))
-Output: <class 'float'>
-
+```
+```
+<class 'float'>
+```
+```python
 print(int(764.12))
-Output: 764
+```
+```
+764
 ```
 If the argument of this function contains non-number characters (ex. int(“1, 2, tie my shoe”)), a ValueError will be returned.
 
 **Float()-** used to convert a value to a float
 ```python
 print(float("54.321"))
-Output: 54.321
-
+```
+```
+54.321
+```
+```python
 print(type(float("54.321")))
-Output: <class ‘float’>  
-  
+```
+```
+<class ‘float’>  
+```
+```python
 print(float(83))
-Output: 83.0
+```
+```
+83.0
 ```
 **Str()-** used to convert a value to a string
 ```python
 print(str(64))
-Output: 64  
-  
+```
+```
+64
+```
+```python
 print(type(str(64)))
-Output: <class ‘str’>
-
+```
+```
+<class ‘str’>
+```
+```python
 print(str(7.53))
-Output: 7.53
+```
+```
+7.53
 ```
 These type conversion functions can be used for concatenation, for example…
 ```python
 print("The product of 6 and 3 is " + str(6 * 3))
-Output: The product of 6 and 3 is 18
+```
+```
+The product of 6 and 3 is 18
 ```
 **Your turn!** Think of a way you can use type conversion functions when you code.
