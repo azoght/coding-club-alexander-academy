@@ -362,7 +362,7 @@ for i in range(100):
   t.forward(4 * i)
   t.right(90)
 ```
-Line 1 lets the compiler know that the next bit of code is a for loop, which is the kind of loop in programs that repeats a certain number of times. The *i* is an iterator variable, which keeps track of the number of times the loop is running so far (or at least what value range() is currently on). If not necessary for the actions that the loop is executing, the iterator variable can be represented as a *_*. 
+Line 1 lets the compiler know that the next bit of code is a for loop, which is the kind of loop in programs that repeats a *certain* number of times. The *i* is an iterator variable, which keeps track of the number of times the loop is running so far (or at least what value range() is currently on). If not necessary for the actions that the loop is executing, the iterator variable can be represented as a *_*. 
 
 For example...
 ```python 
@@ -396,7 +396,7 @@ l
 u
 b
 ```
-In the case of the for loop above, *char* is a character of the string "Coding Club". Instead of the range() function is "Coding Club", since it's the scope of the loop's functionality, and it's the sequence to be used. In fact the output of range() is a sequence itself. If you covert a range() function to a list, this will be produced.
+In the case of the for loop above, *char* is a character of the string "Coding Club". Instead of the range() function is the sequence "Coding Club", so each character in this string is being printed out. In fact, the output of range() is a sequence itself. If you covert a range() function to a list, this will be produced.
 ```python
 print(list(range(6)))
 ```
