@@ -26,14 +26,14 @@ My official curriculum for Alexander Academy's Coding Club
 - [Loops](Week3.md#loops)
 - [Incremental Programming](Week3.md#incremental-programming)
 
-## [Week 4]
-- [Strings, Lists, and Tuples]
-- [Index Operator and Slice Operator]
-- [Concatenation and Repetition]
-- [Count and Index]
-- [Split and Join]
-- [The Accumulator Pattern]
-- [The Range Function]
+## [Week 4](Week4.md)
+- [Strings, Lists, and Tuples](Week4.md#strings-lists-and-tuples)
+- [Index Operator and Slice Operator](Week4.md#index-operator-and-slice-operator)
+- [Concatenation and Repetition](Week4.md#concatenation-and-repetition)
+- [Count and Index](Week4.md#count-and-index)
+- [Split and Join](Week4.md#split-and-join)
+- [The Accumulator Pattern](Week4.md#the-accumulator-pattern)
+- [The Range Function](Week4.md#the-range-function)
 
 ## [Week 5]
 - [Boolean Expressions]
