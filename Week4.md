@@ -145,7 +145,7 @@ Suzuki
 **Slice Operator**
 Returns part of a sequence, has similar syntax to the index operator, except the argument is a range. 
 
-*x[y:z]* returns a sequence of all items in sequence x from index y to (but not including) index z
+*x[y:z]-* returns a sequence of all items in sequence x from index y to (but not including) index z
 ```python
 card_suit = ["Ace",2,3,4,5,6,7,8,9,10,"Jack","Queen","King"]
 print(card_suit[4:11]) # between the fifth and twelvth items
@@ -153,7 +153,7 @@ print(card_suit[4:11]) # between the fifth and twelvth items
 ```
 [5, 6, 7, 8, 9, 10, 'Jack']
 ```
-*x[y:]* returns a sequence of all items in sequence x from index y onward
+*x[y:]-* returns a sequence of all items in sequence x from index y onward
 ```python
 card_suit = ["Ace",2,3,4,5,6,7,8,9,10,"Jack","Queen","King"]
 print(card_suit[3:]) # between the fourth and last items
@@ -161,7 +161,7 @@ print(card_suit[3:]) # between the fourth and last items
 ```
 [4, 5, 6, 7, 8, 9, 10, 'Jack', 'Queen', 'King']
 ```
-*x[:z]* returns a sequence of all items in sequence x up to (but not including) index z
+*x[:z]-* returns a sequence of all items in sequence x up to (but not including) index z
 ```python
 card_suit = ["Ace",2,3,4,5,6,7,8,9,10,"Jack","Queen","King"]
 print(card_suit[:10]) # between the first and eleventh item
