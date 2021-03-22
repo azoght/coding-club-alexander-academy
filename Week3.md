@@ -376,7 +376,7 @@ Hello!
 Hello!
 Hello!
 ```
-As you can probably infer from the code above the *range()* function determines how many times the code inside the loop will be ran.
+As you can probably infer from the code above, the *range()* function determines how many times the code inside the loop will be ran.
 
 Did you know that you can also use a sequence (such as a string or a list) as the basis for a for loop? Here's a simple example.
 ```python
@@ -396,7 +396,7 @@ l
 u
 b
 ```
-In the case of the for loop above, *char* is a character of the string "Coding Club". Instead of the range() function is the sequence "Coding Club", so each character in this string is being printed out. In fact, the output of range() is a sequence itself. If you covert a range() function to a list, this will be produced.
+In the case of the for loop above, *char* is a character of the string "Coding Club". Instead of the range() function is the sequence "Coding Club", so each character in this string is being printed out. Actually, the value of range() is a sequence itself. If you convert a range() function to a list, this will be produced.
 ```python
 print(list(range(6)))
 ```
