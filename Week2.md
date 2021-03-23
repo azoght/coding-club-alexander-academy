@@ -1,5 +1,8 @@
 ﻿
 # Week 2
+
+Runestone: 2.7-2.15
+
 ## Variables
 Variables in Python are used to store values.
 
@@ -189,3 +192,6 @@ print("This is a test.")
 ```
 For this course, I highly encourage adding **single-line comments** to your code that explain what is going on. That way, not only will I be able understand your code, but the facilitators and students will too.
 
+Recommended Exercises:
+
+[2.17](https://runestone.academy/runestone/books/published/fopp/index.html): 3, 5, 7, 8, 9, 10, 11
