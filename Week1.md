@@ -1,4 +1,6 @@
 ﻿# Week 1
+ 
+Runestone: 1, 2.1-2.6
 
 ## Your First Program: Hello World
 All it takes is one line of code
@@ -231,3 +233,7 @@ print("The product of 6 and 3 is " + str(6 * 3))
 The product of 6 and 3 is 18
 ```
 **Your turn!** Think of a way you can use type conversion functions when you code.
+
+Recommended Exercises:
+
+[2.17](https://runestone.academy/runestone/books/published/fopp/SimplePythonData/Exercises.html): 1, 2
