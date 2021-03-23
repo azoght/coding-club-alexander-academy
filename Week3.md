@@ -17,9 +17,9 @@ When you run this program with the play button, the result looks like this.
 
 ![](PythonTurtleCanvases/pythonsandbox-canvas.png)
 
-In the above code, *turtle* is a module, or package (more on that later) and *Turtle()* is a class. Object-oriented programming is mainly focused on classes, which contain attributes (variables) and methods (functions). The variable *t*, meanwhile, is an instance of a class.
+In the above code, *turtle* is a module, or package (more on that later) and *Turtle()* is a class. Object-oriented programming is mainly focused on classes, which contain attributes (variables) and methods (functions). The variable *t*, meanwhile, is an instance of a class. [(5.4: Object-Oriented Concepts)](https://runestone.academy/runestone/books/published/fopp/PythonTurtle/ObjectInstances.html) [(5.7: Summary of Turtle Methods)](https://runestone.academy/runestone/books/published/fopp/PythonTurtle/SummaryOfTurtleMethods.html)
 
-In the case of the Turtle() class, these attributes are set using certain methods, such as *speed()* to set the speed of the turtle. 
+In the case of the Turtle() class, these attributes are set using certain methods, such as *speed()* to set the speed of the turtle.  
 
 **Other functions that set attributes for Turtle()**
 
@@ -244,7 +244,7 @@ t2.end_fill()
 
 **And one more thing!**
 
-We discuss more about loops a little later, but it's important that you know about the *for loop*, in case your Turtle Project involves some repetition.
+We discuss more about loops a little later, but it's important that you know about the *for loop*, in case your Turtle Project involves some repetition. [(5.5: Repetition with a For Loop)](https://runestone.academy/runestone/books/published/fopp/PythonTurtle/RepetitionwithaForLoop.html)
 
 Here's an example of the for loop using the turtle module.
 
@@ -263,7 +263,7 @@ t.forward(400)
 ![](PythonTurtleCanvases/pythonsandbox-canvas14.png)
 
 ## Packages
-As mentioned earlier, the *turtle* module is a package. Packages contain specialized classes and modules, and there are thousands available for all Python developers through the Internet. 
+As mentioned earlier, the *turtle* module is a package. Packages contain specialized classes and modules, and there are thousands available for all Python developers through the Internet. [(4.2: Modules)](https://runestone.academy/runestone/books/published/fopp/PythonModules/intro-ModulesandGettingHelp.html)
 
 The *import* statement lets the compiler know that a certain package's content is being used for your code.
 ```python
@@ -275,7 +275,7 @@ import this
 ```
 Python has its own built-in packages, so it's best to start learning about packages using one.
 
-Enter the *random* module!
+Enter the *random* module! [(4.3: The random Module)](https://runestone.academy/runestone/books/published/fopp/PythonModules/Therandommodule.html)
 
 The random module is a standard for developers, providing a framework to generate random numbers and integers. Whenever I or any Python programmer needs some **randomness** for their code, this package is the go-to!
 
@@ -311,7 +311,7 @@ Here are some of Python's other built-in modules:
 
 When running Python code, there are three types of errors you will potentially encounter.
 
-**Syntax Errors**
+**Syntax Errors** [(3.5: Syntax Errors)](https://runestone.academy/runestone/books/published/fopp/Debugging/Syntaxerrors.html)
 
 Syntax errors occur if any syntax of an expression isn't constructed properly, and so the compiler will be unable to process it.
 
@@ -324,7 +324,7 @@ SyntaxError: unexpected EOF while parsing
 ```
 This is obviously because the right bracket is missing.
 
-**Runtime Errors**
+**Runtime Errors** [(3.6: Runtime Errors)](https://runestone.academy/runestone/books/published/fopp/Debugging/RuntimeErrors.html)
 
 Runtime errors occur if the program is running and an "illegal" operation is compiled.
 
@@ -338,7 +338,7 @@ print(favColour + " is an interesting colour!")
 ```
 NameError: name 'favColour' is not defined
 ```
-**Semantic Errors**
+**Semantic Errors** [(3.7: Semantic Errors)](https://runestone.academy/runestone/books/published/fopp/Debugging/SemanticErrors.html)
 
 Semantic errors occur when the program runs well, but the output is not the coder's intention.
 
@@ -454,10 +454,12 @@ for i in range(5):
 ## Incremental Programming
 A good practice to have as a coder is to *test your code often*. What is meant by this is that you run your code at least every time you type a line. Although one might be tempted to write many lines of code before the first time you run it (I know I do), it's a good way to understand your errors better and catch/solve them faster, otherwise your coding problems will continue to grow dramatically like a snowball rolling down a hill. This is **incremental programming** in a nutshell.
 
-Read more [here](https://www.geeksforgeeks.org/incremental-programming-in-python/).
+Read more [here](https://runestone.academy/runestone/books/published/fopp/PythonTurtle/WPIncrementalProgramming.html).
 
 Recommended Exercises: 
 
 [3.9](https://runestone.academy/runestone/books/published/fopp/Debugging/Exercises.html): all
+
 [4.5](https://runestone.academy/runestone/books/published/fopp/PythonModules/Exercises.html): all
+
 [5.10](https://runestone.academy/runestone/books/published/fopp/PythonTurtle/Exercises.html): 1,3,4,5
