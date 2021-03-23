@@ -24,6 +24,11 @@ Since the turtle module isn't effective in Repl, we will be using [Python Sandbo
 
 ![Python + Turtle](https://www.ayclogic.com/wp-content/uploads/2020/12/pythonTurtle.jpeg)
 
+## Foundations of Python Programming @ Runestone Academy
+Though I have few years of coding experience in Python, I've revisted the basics again, using [this course](https://runestone.academy/runestone/books/published/fopp/index.html) as a baseline. Their lessons and exercises are totally free, and each lesson, I will provide you with the links to the corresponding unit, exercises, and assessment, along with my recommended exercises. I hope you enjoy them as much as I do!
+
+![Runestone Interactive](https://runestone.academy/runestone/books/published/overview/_images/logo_small.png)
+
 ## If you already have a IDE that supports Python, that's great!
 If you're using a previously installed IDE that supports Python 3 (e.g. Pycharm, VS Code, Spyder), whether it'd be on your personal computer or one of the school's desktops, feel free to use that instead of Repl for this course, as long as you let me or a facilitator know in advance. 
 
