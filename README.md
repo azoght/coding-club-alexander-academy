@@ -2,6 +2,8 @@
 
 My official curriculum for Alexander Academy's Coding Club
 
+## [Getting Started](GettingStarted.md)
+
 ## [Week 1](Week1.md)
 
 - [Your First Program: Hello World](Week1.md#your-first-program-hello-world)
