@@ -48,4 +48,4 @@ My official curriculum for Alexander Academy's Coding Club
 - [Objects and References]
 - [Aliasing and Cloning]
 - [Methods on Lists and Strings]
-- [The Accumulator Pattern on Lists and Strings]
+- [The Accumulator Pattern with Lists and Strings]
