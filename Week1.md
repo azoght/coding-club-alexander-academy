@@ -1,6 +1,6 @@
 ﻿# Week 1
  
-Runestone: 1, 2.1-2.6
+Runestone: [1](https://runestone.academy/runestone/books/published/fopp/GeneralIntro/toctree.html), [2.1-2.6](https://runestone.academy/runestone/books/published/fopp/SimplePythonData/toctree.html)
 
 ## Your First Program: Hello World
 All it takes is one line of code
