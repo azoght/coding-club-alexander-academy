@@ -1,4 +1,7 @@
 ﻿# Week 4
+ 
+Runestone: [6](https://runestone.academy/runestone/books/published/fopp/Sequences/toctree.html), [7](https://runestone.academy/runestone/books/published/fopp/Iteration/toctree.html)
+
 ## Strings, Lists, and Tuples
 
 This week is all about *sequences* and the basic operations that can be performed on them. Sequences are ordered collections of values of a certain length (which can be returned using the *len()* function), and each kind has a certain *mutability*, or ability to be changed in-place. More on that later.
@@ -405,3 +408,8 @@ print(list(range(0,10,2)))
 [0, 2, 4, 6, 8]
 ```
 **Your Turn!** Now that you've learned a lot about sequences and how to iterate through them using for loops, it's time to put your skills to the test! Create a program that removes characters or words from a string. We will dive deeper into deleting elements from sequences later on, but the methods we've covered this week are a good place to start. Can't wait to see what you come up with next week! 
+
+Recommended Exercises: 
+
+[6.10](https://runestone.academy/runestone/books/published/fopp/Sequences/Exercises.html): all
+[7.14](https://runestone.academy/runestone/books/published/fopp/Iteration/Exercises.html): 4, 5, 6, 8, 9
