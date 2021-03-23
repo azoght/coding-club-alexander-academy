@@ -8,7 +8,7 @@ This week is all about *sequences* and the basic operations that can be performe
 
 To get started, here are three fundamental sequences: strings, lists, and tuples.
 
-**Strings**
+**Strings** [(6.2.1: Strings)](https://runestone.academy/runestone/books/published/fopp/Sequences/StringsandLists.html#strings)
 
 As mentioned in [Week 1](Week1.md#values-and-data-types), strings are sequences of characters. They are created using either single (') or double ('') quotes
 ```python
@@ -40,7 +40,7 @@ str1 = " "
 ```
 has a length of 1.
 
-**Lists**
+**Lists** [(6.2.2: Lists)](https://runestone.academy/runestone/books/published/fopp/Sequences/StringsandLists.html#lists)
 
 While strings are sequences of characters, lists are sequences of any kind of value. They are created using square brackets ([]), and each item is separated by a comma.
 ```python
@@ -52,7 +52,7 @@ Certain programming languages say you must specify the type that all items in a 
 mix = [1, "more", 4, "this", 2, "work"] # list of integers and strings
 ```
 
-**Tuples**
+**Tuples** [(6.2.3: Tuples)](https://runestone.academy/runestone/books/published/fopp/Sequences/StringsandLists.html#tuples)
 
 Tuples, like lists are sequences of values of any type. However, the only big thing that makes tuples different from lists is that they're **immutable**, meaning that once they're created, they *can't* be changed. Tuples are created using brackets, and each item is separated by a comma.
 ```python
@@ -106,7 +106,7 @@ t.forward(40)
 ## Index Operator and Slice Operator
 Strings, lists, and tuples are *ordered* sequences, meaning they have an index, so they come with these operators.
 
-**Index Operator**
+**Index Operator** [(6.3: Index Operator)](https://runestone.academy/runestone/books/published/fopp/Sequences/IndexOperatorWorkingwiththeCharactersofaString.html)
 
 Returns the element at a certain index/position of sequence. *x[y]* returns the (y-1)th item of sequence x, because, zero-based indexing.
 
@@ -145,7 +145,8 @@ print(school_houses[-1]) # the last item in this list
 Suzuki
 ```
 
-**Slice Operator**
+**Slice Operator** [(6.6: The Slice Operator)](https://runestone.academy/runestone/books/published/fopp/Sequences/TheSliceOperator.html)
+
 Returns part of a sequence, has similar syntax to the index operator, except the argument is a range. 
 
 *x[y:z]-* returns a sequence of all items in sequence x from index y to (but not including) index z
@@ -175,7 +176,7 @@ print(card_suit[:10]) # between the first and eleventh item
 
 ## Concatenation and Repetition
 
-Other ways to create sequences include concatenation and repetition.
+Other ways to create sequences include concatenation and repetition. [(6.7: Concatenation and Repetition)](https://runestone.academy/runestone/books/published/fopp/Sequences/ConcatenationandRepetition.html)
 
 **Concatenation**
 
@@ -228,7 +229,7 @@ print(rep2)
 ## Count and Index
 Here are two useful methods for any sequence:
 
-**.count()**
+**.count()** [(6.8.1: Count)](https://runestone.academy/runestone/books/published/fopp/Sequences/CountandIndex.html#count)
 
 Returns the number of times a specific item is in a sequence
 ```python
@@ -247,7 +248,7 @@ print(lesson.count("learn")) # How many times is "learn" in this string?
 4
 ```
 
-**.index()**
+**.index()** [(6.8.2: Index)](https://runestone.academy/runestone/books/published/fopp/Sequences/CountandIndex.html#index)
 
 Returns the index of a certain item in a sequence 
 ```python
@@ -305,7 +306,7 @@ print(no_x.count("x"))
 It doesn't return an error, it just returns 0, since "x" occurs no times in this list.
 
 ## Split and Join
-Here are two other very useful methods, which **only** apply to strings.
+Here are two other very useful methods, which **only** apply to strings. [(6.9: Splitting and Joining)](https://runestone.academy/runestone/books/published/fopp/Sequences/SplitandJoin.html)
 
 **.split()**
 
@@ -346,9 +347,9 @@ Ross and Rachel and Chandler and Monica and Phoebe and Joey
 ```
 
 ## The Accumulator Pattern
-The accumulator pattern is a pattern where the items in a sequence are *iterated* through using a for loop.  It involves an *accumulator variable* (initialized before the loop), and an *iterator variable* (keeps track of iterations). Each time the loop is executed, the accumulator variable is updated. When the loop ends, the accumulator variable is looked at or used.
+The accumulator pattern is a pattern where the items in a sequence are *iterated* through using a for loop.  It involves an *accumulator variable* (initialized before the loop), and an *iterator variable* (keeps track of iterations). Each time the loop is executed, the accumulator variable is updated. When the loop ends, the accumulator variable is looked at or used. [(7.6: The Accumulator Pattern)](https://runestone.academy/runestone/books/published/fopp/Iteration/TheAccumulatorPattern.html)
 
-Here's an example, where the mean (average) of a list is calculated
+Here's an example, where the mean (average) of a list is calculated:
 ```python
 numList = [17, 23, 15, 30, 12, 8, 28, 16]
 s = 0 # this will be the sum of the numbers in numList
@@ -365,7 +366,7 @@ print(avg)
 **Your Turn!** Create a for loop that uses the accumulator pattern for a sequence *other than* a list of numbers. I will have a look at them next week.
 
 ## The Range Function
-As you'll remember from [last week](Week3.md#loops), the *range()* function outputs a sequence of numbers (actually, it's an *iterable*, not a list, but you get the idea). Let's dive into its usage a little further.
+As you'll remember from [last week](Week3.md#loops), the *range()* function outputs a sequence of numbers (actually, it's an *iterable*, not a list, but you get the idea). Let's dive into its usage a little further. [(7.5.1: Using the range function)](https://runestone.academy/runestone/books/published/fopp/Iteration/Listsandforloops.html#using-the-range-function-to-generate-a-sequence-to-iterate-over)
 
 **range(x)-** sequence is whole numbers from 0 up to (but not including) x
 ```python
@@ -412,4 +413,5 @@ print(list(range(0,10,2)))
 Recommended Exercises: 
 
 [6.10](https://runestone.academy/runestone/books/published/fopp/Sequences/Exercises.html): all
+
 [7.14](https://runestone.academy/runestone/books/published/fopp/Iteration/Exercises.html): 4, 5, 6, 8, 9
