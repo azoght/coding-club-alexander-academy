@@ -4,7 +4,7 @@
 Runestone: [2.7-2.15](https://runestone.academy/runestone/books/published/fopp/SimplePythonData/Variables.html)
 
 ## Variables
-Variables in Python are used to store values.
+Variables in Python are used to store values. [(2.7: Variables)](https://runestone.academy/runestone/books/published/fopp/SimplePythonData/Variables.html)
 
 A variable consists of a *name* and a *value*, and is assigned using an equal sign (=).
 
@@ -32,7 +32,8 @@ Vancouver's airport is the Vancouver International Airport and their area code i
 ```
 **Ground Rules For Variable Names:**
 
- - should be easy for both the coder and reader to remember
+ - should be easy for both the coder and reader to understand [(2.9: Choosing the Right Variable Name)](https://runestone.academy/runestone/books/published/fopp/SimplePythonData/WPChoosingtheRightVariableName.html)
+ - shouldn't share its name with a Python keyword [(2.8: Variable Names and Keywords)](https://runestone.academy/runestone/books/published/fopp/SimplePythonData/VariableNamesandKeywords.html)
  - must start with a letter
  - can only contain letters, numbers, and underscores
 
@@ -44,11 +45,11 @@ A *statement* is an instruction which the Python compiler reads and executes (e.
 ```python
 week = 2
 ```
-An *expression* is any section of Python code that generates a value. Functions that return values are expressions, as well as the values of variables.
+An *expression* is any section of Python code that generates a value. Functions that return values are expressions, as well as the values of variables. [(2.10: Statements and Expressions)](https://runestone.academy/runestone/books/published/fopp/SimplePythonData/StatementsandExpressions.html)
 ```python
 str(week)
 ```
-**The len() function**
+**The len() function** 
 Returns the length of a sequence, such as a list or a string.
 ```python
 print(len("Code"))
@@ -58,7 +59,7 @@ print(len("Code"))
 ```
 
 ## Updating Variables
-Variables are generally updated the same way they are declared.
+Variables are generally updated the same way they are declared. [(2.13: Updating Variables)](https://runestone.academy/runestone/books/published/fopp/SimplePythonData/UpdatingVariables.html)
 
 ```python
 favouriteNumber = 3
@@ -92,7 +93,7 @@ print(dollars)
 ```
 ## Interlude: Hard-Coding
 
-Remember to not **hard-code**!
+Remember to not **hard-code**! [(2.14: Hard-Coding)](https://runestone.academy/runestone/books/published/fopp/SimplePythonData/HardCoding.html)
 
 This means that even if you know the answer to an expression, use the full expression step-by-step instead of cheating and using just the expression.
 
@@ -123,7 +124,7 @@ print(product)
 ## Input
 Now *this* is where Python gets cool!
 
-The **input()** function will ask the user to enter something. The argument for the input() function is known as the *prompt*, which the user will type their input next to when it shows up on the console. We'll also need to store the user's input as a variable for later use. Note that the function's value will *always* be a string even if the input is a number or decimal. You can fix this using the type conversion functions we covered last week. 
+The **input()** function will ask the user to enter something. The argument for the input() function is known as the *prompt*, which the user will type their input next to when it shows up on the console. We'll also need to store the user's input as a variable for later use. Note that the function's value will *always* be a string even if the input is a number or decimal. You can fix this using the type conversion functions we covered last week. [(2.15: Input)](https://runestone.academy/runestone/books/published/fopp/SimplePythonData/Input.html)
 
 Let's say you wanted to create a simple program that asks for the user's name and prints out a greeting in return. Here's how that can be done.
 
@@ -166,7 +167,7 @@ print(str(feet) + "' " + str(inches) + "''")
 
 ## Comments!
 
-Comments are basically little notes, usually to help yourself and others understand your code. These comments won't be read by the compiler, so they can say whatever you want (but keep them relevant please).
+Comments are basically little notes, usually to help yourself and others understand your code. These comments won't be read by the compiler, so they can say whatever you want (but keep them relevant please). [(1.10: Comments)](https://runestone.academy/runestone/books/published/fopp/GeneralIntro/Comments.html)
 
 **Single-Line Comment:** the most common comment, marked by a hashtag (#), can be either be placed right next to a line of code or as its own line.
 ```python
