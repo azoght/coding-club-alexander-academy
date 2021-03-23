@@ -3,7 +3,7 @@
 Runestone: [1](https://runestone.academy/runestone/books/published/fopp/GeneralIntro/toctree.html), [2.1-2.6](https://runestone.academy/runestone/books/published/fopp/SimplePythonData/toctree.html)
 
 ## Your First Program: Hello World
-All it takes is one line of code
+All it takes is one line of code [(1.7: A Typical First Program)](https://runestone.academy/runestone/books/published/fopp/GeneralIntro/ATypicalFirstProgram.html)
 
 ```python
 print("Hello World!")
@@ -22,7 +22,7 @@ Feel free to use whatever message you like in place of Hello World!
 
 ## Values and Data Types
 
-Here are some basic data types that you’ll see in pretty much all Python programs.
+Here are some basic data types that you’ll see in pretty much all Python programs. [(2.2: Values and Data Types)](https://runestone.academy/runestone/books/published/fopp/SimplePythonData/Values.html)
 
 **Integer-** a non-decimal number (ex. -3, 100, 2456708)
 
@@ -34,7 +34,7 @@ Here are some basic data types that you’ll see in pretty much all Python progr
 
 ## Operators
 
-Operators are symbols used to alter multiple values (or operands) into a single value.
+Operators are symbols used to alter multiple values (or operands) into a single value. [(2.3: Operators and Operands)](https://runestone.academy/runestone/books/published/fopp/SimplePythonData/Operators.html)
 
 Here are the basic operators used in Python.
 
@@ -127,7 +127,7 @@ print((10 - 8) // 2)
 ```
 
 ## Functions
-Functions are expressions, which take input (arguments) and generate output (return value).
+Functions are expressions, which take input (arguments) and generate output (return value). [(2.4: Function Calls)](https://runestone.academy/runestone/books/published/fopp/SimplePythonData/FunctionCalls.html)
 
 **Example**: calculate area of rectangle, given length and width
 ```python
@@ -148,7 +148,7 @@ However, a function can also have *no input* whatsoever, as is the case for the 
 Regardless, a function *should* have output.
 
 ## The Type() Function
-The function type() gives us the data type of the argument
+The function type() gives us the data type of the argument [(2.5: Data Types)](https://runestone.academy/runestone/books/published/fopp/SimplePythonData/DataTypes.html)
 ```python
 print(type("Welcome to Coding Club!"))
 ```
@@ -164,7 +164,7 @@ print(type(16))
 It should be used if you are unsure what data type a value is.
 
 ## Type Conversion Functions
-There are other built-in functions that can be used to convert a value from one type to another.
+There are other built-in functions that can be used to convert a value from one type to another. [(2.6: Type conversion functions)](https://runestone.academy/runestone/books/published/fopp/SimplePythonData/ConvertTypeFunctions.html)
 
 **Int()-** used to convert a value to an integer
 ```python
