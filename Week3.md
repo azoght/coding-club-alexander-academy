@@ -1,4 +1,7 @@
 ﻿# Week 3
+ 
+Runestone: [3](https://runestone.academy/runestone/books/published/fopp/Debugging/toctree.html), [4](https://runestone.academy/runestone/books/published/fopp/PythonModules/toctree.html), [5](https://runestone.academy/runestone/books/published/fopp/PythonTurtle/toctree.html)
+
 ## The Turtle Module
 To get started with this lesson, please visit [this site](http://www.pythonsandbox.com/turtle)
 
@@ -452,3 +455,9 @@ for i in range(5):
 A good practice to have as a coder is to *test your code often*. What is meant by this is that you run your code at least every time you type a line. Although one might be tempted to write many lines of code before the first time you run it (I know I do), it's a good way to understand your errors better and catch/solve them faster, otherwise your coding problems will continue to grow dramatically like a snowball rolling down a hill. This is **incremental programming** in a nutshell.
 
 Read more [here](https://www.geeksforgeeks.org/incremental-programming-in-python/).
+
+Recommended Exercises: 
+
+[3.9](https://runestone.academy/runestone/books/published/fopp/Debugging/Exercises.html): all
+[4.5](https://runestone.academy/runestone/books/published/fopp/PythonModules/Exercises.html): all
+[5.10](https://runestone.academy/runestone/books/published/fopp/PythonTurtle/Exercises.html): 1,3,4,5
