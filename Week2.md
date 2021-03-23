@@ -1,7 +1,7 @@
 ﻿
 # Week 2
 
-Runestone: 2.7-2.15
+Runestone: [2.7-2.15](https://runestone.academy/runestone/books/published/fopp/SimplePythonData/Variables.html)
 
 ## Variables
 Variables in Python are used to store values.
