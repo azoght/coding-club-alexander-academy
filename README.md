@@ -37,10 +37,10 @@ My official curriculum for Alexander Academy's Coding Club
 - [The Accumulator Pattern](Week4.md#the-accumulator-pattern)
 - [The Range Function](Week4.md#the-range-function)
 
-## [Week 5]
-- [Boolean Expressions]
-- [Logical Operators]
-- [Conditionals]
+## [Week 5](Week5.md)
+- [Boolean Expressions](Week5.md#boolean-expressions)
+- [Logical Operators](Week5.md#logical-operators)
+- [Conditionals](Week5.md#conditionals)
 
 ## [Week 6]
 - [Mutation]
