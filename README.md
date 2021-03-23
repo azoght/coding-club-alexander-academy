@@ -2,7 +2,7 @@
 
 My official curriculum for Alexander Academy's Coding Club
 
-## [Getting Started](GettingStarted.md)
+## [Getting Started: Tools You'll Need](GettingStarted.md)
 
 ## [Week 1](Week1.md)
 
@@ -43,8 +43,9 @@ My official curriculum for Alexander Academy's Coding Club
 - [Conditionals](Week5.md#conditionals)
 
 ## [Week 6]
-- [Mutation]
-- [Deleting an Element from a List]
+- [Mutability]
+- [Deleting Elements]
 - [Objects and References]
 - [Aliasing and Cloning]
 - [Methods on Lists and Strings]
+- [The Accumulator Pattern on Lists and Strings]
