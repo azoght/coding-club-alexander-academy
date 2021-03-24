@@ -42,10 +42,10 @@ My official curriculum for Alexander Academy's Coding Club
 - [Logical Operators](Week5.md#logical-operators)
 - [Conditionals](Week5.md#conditionals)
 
-## [Week 6]
-- [Mutability]
-- [Deleting Elements]
-- [Objects and References]
-- [Aliasing and Cloning]
-- [Methods on Lists and Strings]
-- [The Accumulator Pattern with Lists and Strings]
+## [Week 6](Week6.md)
+- [Mutability](Week6.md#mutability)
+- [Deleting Elements](Week6.md#deleting-elements)
+- [Objects and References](Week6.md#objects-and-references)
+- [Aliasing and Cloning](Week6.md#aliasing-and-cloning)
+- [Methods on Lists and Strings](Week6.md#methods-on-lists-and-strings)
+- [The Accumulator Pattern with Lists and Strings](Week6.md#the-accumulator-pattern-with-lists-and-strings)
