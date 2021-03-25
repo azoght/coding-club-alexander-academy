@@ -2,7 +2,20 @@
 
 My official curriculum for Alexander Academy's Coding Club
 
-In this course you will learn:
+**In this course you will learn:**
+- the fundamentals of Python, such as variables and operators
+- how to process user input for different results every time
+- the Turtle module,how it works, and what you can do with it
+- how to interpret and solve errors in your Python code
+- the logic behind conditional statements
+- the operations you can perform on sequences
+- and more!
+
+**By the end of this course, you'll be able to:**
+- recall the basic conventions of Python, how and when to use them
+- program incrementally and spot errors along the way
+- create cummulative projects that combine all you've learned in this course
+- seek new opportunities with Python and beyond (who knows, maybe you'll decide to take it in uninversity or college)
 
 ## [Getting Started: Tools You'll Need](GettingStarted.md)
 
