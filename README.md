@@ -2,6 +2,8 @@
 
 My official curriculum for Alexander Academy's Coding Club
 
+In this course you will learn:
+
 ## [Getting Started: Tools You'll Need](GettingStarted.md)
 
 ## [Week 1](Week1.md)
