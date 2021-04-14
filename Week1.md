@@ -7,15 +7,7 @@ All it takes is one line of code [(1.7: A Typical First Program)](https://runest
 
 ```python
 print("Hello World!")
-```
-Or if you want to get all fancy...
 
-```python
-def  printHelloWorld():  
-	print("Hello World!")  
-
-printHelloWorld()
-```
 As you can see in the code above, to generate Hello World! as our output, we use a function called print(), which displays the value inside when ran.
 
 Feel free to use whatever message you like in place of Hello World!
@@ -134,7 +126,7 @@ Functions are expressions, which take input (arguments) and generate output (ret
 def areaofRectangle(length, width):
 	return length * width
 
-print(areaofRectangle(4,6)
+print(areaofRectangle(4,6))
 ```
 ```
 24
@@ -143,7 +135,7 @@ In the above function, the arguments are length and width, while the return valu
 
 **Your Turn!** Think of a formula you learned about in school and create your own function in Python based on this formula. (Bonus if you can figure out how to code the quadratic formula given a, b, and c)
 
-However, a function can also have *no input* whatsoever, as is the case for the printHelloWorld() function.
+However, a function can also have *no input* whatsoever.
 
 Regardless, a function *should* have output.
 
@@ -174,7 +166,7 @@ print(int("8732"))
 8732
 ```
 ```python
-print(type(int("8732"))
+print(type(int("8732")))
 ```
 ```
 <class 'float'>
