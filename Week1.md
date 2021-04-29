@@ -7,6 +7,7 @@ All it takes is one line of code [(1.7: A Typical First Program)](https://runest
 
 ```python
 print("Hello World!")
+```
 
 As you can see in the code above, to generate Hello World! as our output, we use a function called print(), which displays the value inside when ran.
 
