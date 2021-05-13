@@ -59,7 +59,7 @@ print(5 * 3)
 15
 ```
 ```python
-print(Happy * 7)
+print("Happy" * 7)
 ```
 ```
 HappyHappyHappyHappyHappyHappyHappy
