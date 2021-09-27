@@ -64,7 +64,7 @@ print("Happy" * 7)
 ```
 HappyHappyHappyHappyHappyHappyHappy
 ```
-**Division-** used to divide two values (\)
+**Division-** used to divide two values (/)
 ```python
 print(30 / 6)
 ```
@@ -77,7 +77,7 @@ print(8 / 6)
 ```
 1.33333333333333333333333
 ```
-**Truncated Division-** rounds the quotient of two values (\\)
+**Truncated Division-** rounds the quotient of two values (//)
 ```python
 print(11 // 5)
 2
@@ -138,7 +138,7 @@ In the above function, the arguments are length and width, while the return valu
 
 However, a function can also have *no input* whatsoever.
 
-Regardless, a function *should* have output.
+Regardless, a function should *always* have output.
 
 ## The Type() Function
 The function type() gives us the data type of the argument [(2.5: Data Types)](https://runestone.academy/runestone/books/published/fopp/SimplePythonData/DataTypes.html)
