@@ -10,6 +10,8 @@ If you're interested in creating a Github account, let me know and I'll get you 
 
 <img src=https://image.flaticon.com/icons/png/512/25/25231.png width=400 height=400>
 
+**UPDATE (9/26/2021):** It is now highly recommended that all members sign up for GitHub, as that makes it easier to sign up for Repl.it and share your code with me, fellow members, and the whole world!
+
 ## Repl
 To share snippets of what you learned so far from this course, I highly recommend Repl.it for all members. Starting an account is easy, and you can access thousands of packages in addition to built-in modules. You must sign up [here](https://replit.com/signup). (**Bonus:** If you already have a Github account, you can use that to sign up instead of your Google account.) 
 
