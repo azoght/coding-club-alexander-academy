@@ -64,3 +64,5 @@ My official curriculum for Alexander Academy's Coding Club
 - [Aliasing and Cloning](Week6.md#aliasing-and-cloning)
 - [Methods on Lists and Strings](Week6.md#methods-on-lists-and-strings)
 - [The Accumulator Pattern with Lists and Strings](Week6.md#the-accumulator-pattern-with-lists-and-strings)
+
+11/22/2021: [Typing Test Project](https://docs.google.com/presentation/d/18aO5Px3rw8s5TlAjBbCOMYBJk0s-4TufrYp195cNW3E/edit?usp=sharing)
